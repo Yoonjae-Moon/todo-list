@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNhcxJj4uy1wF5B-Q_ofmSMTP-o90HtRor7w&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    min-height:100vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.task-area{
+    border:1px solid lightgray;
+}
+
+.task-tabs{
+    display:flex;
+    border-bottom:1px solid lightgray;
+    position : relative;
+}
+
+.task-tabs div{
+    padding: 1em;
+}
+
+#under-line{
+    height: 4px;
+    background-color: pink;
+    position: absolute;
+    width: 80px;
+    left: 0px;
+    top: 52px;
+    padding:0px;
+
+}
+
+.task{
+    display:flex;
+    justify-content: space-between;
+    padding : 1em;
+}
