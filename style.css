@@ -33,7 +33,6 @@ body{
     left: 0px;
     top: 52px;
     padding:0px;
-
 }
 
 .task{
@@ -44,6 +43,9 @@ body{
 
 .task-done{
     text-decoration : line-through;
+}
+.task-done div{
+    background-color: lightgray;
 }
 
 .fa-check {
@@ -62,4 +64,8 @@ body{
 
 .icon-spacing {
     margin-right: 20px; 
+}
+
+.task-tabs div{
+    cursor : pointer;
 }
