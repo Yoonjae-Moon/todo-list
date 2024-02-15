@@ -6,9 +6,21 @@ body{
 }
 
 .container{
-    background-color: white;
-    min-height:100vh;
+    background-color:lightgoldenrodyellow;
+    min-height:80vh;
+    position: absolute;
+
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    overflow-y: auto; /* 내용이 넘칠 경우 스크롤 허용 */
+    transform: translate(-50%, 0%); /* 좌우 중앙 정렬은 유지하되, 상하 위치 조정 */
+    left: 50%;
+    top: 10vh; /* 상단으로부터 10vh 만큼 떨어진 위치에 배치 */
+    max-width: 400px; /* 모바일 느낌의 최대 너비 */
+
+
+
+
+
 }
 
 .task-area{
@@ -27,12 +39,12 @@ body{
 
 #under-line{
     height: 4px;
-    background-color: pink;
+    background-color: greenyellow;
     position: absolute;
     width: 80px;
     left: 0px;
     top: 52px;
-    padding:0px;
+    padding:2px;
 }
 
 .task{
